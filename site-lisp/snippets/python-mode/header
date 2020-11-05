@@ -1,0 +1,16 @@
+# -*- mode: snippet -*-
+# name:header
+# key: hder
+# --
+
+#!/usr/bin/env python3
+
+# -*- coding: utf-8 -*-
+
+"""
+Date: `(format-time-string "%Y-%m-%d %T")` 
+Author: `(get-git-user-name)`
+Email: `(get-git-user-email)`
+"""
+
+$0

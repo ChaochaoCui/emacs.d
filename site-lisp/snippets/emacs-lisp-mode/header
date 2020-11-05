@@ -1,0 +1,21 @@
+# -*- coding: utf-8; mode: snippet -*-
+# name: header
+# key: hder
+# --
+;;; `(file-name-nondirectory buffer-file-name)` --- ${1:purpose}  -*- lexical-binding: t -*-
+
+;; Version: 0.0.1
+;; Author: `(get-git-user-name)`
+;; Email: `(get-git-user-email)`
+;; Created: `(format-time-string "%Y-%m-%d %T")`
+;; Package-Requires: ((emacs "27.1"))
+
+;;; Commentary:
+
+;; $0
+
+;;; Code:
+
+(provide '`(file-name-base buffer-file-name)`)
+
+;;; `(file-name-nondirectory buffer-file-name)` ends here
