@@ -25,6 +25,7 @@
              (display-line-numbers-mode +1)))
 
 (require 'smartparens-config)
+(require 'restart-emacs)
 
 (provide 'init-misc)
 
