@@ -12,16 +12,19 @@
 
 ;;; Code:
 
-(require 'auto-save)
-
 (setq x-select-enable-clipboard t)
 ;;(setq split-width-threshold nil)
-(display-line-numbers-mode)
 (setq make-backup-files nil)
 
-(auto-save-enable)
-(setq auto-save-silent t)
-(setq auto-save-delete-trailing-whitespace t)
+;; ~= 100M
+(setq large-file-warning-threshold 100000000)
+
+(add-hook 'prog-mode-hook
+          '(lambda ()
+             (read-only-mode +1)
+             (display-line-numbers-mode +1)))
+
+(require 'smartparens-config)
 
 (provide 'init-misc)
 
