@@ -11,7 +11,17 @@
 ;;
 
 ;;; Code:
+(require 'pdf-tools)
+(require 'pdf-loader)
+(require 'pdf-history)
+(require 'pdf-occur)
+(require 'pdf-links)
+(require 'pdf-outline)
+(require 'pdf-annot)
+(require 'pdf-misc)
+(require 'pdf-sync)
 
+(pdf-loader-install)
 (provide 'init-pdf)
 
 ;;; init-pdf.el ends here
