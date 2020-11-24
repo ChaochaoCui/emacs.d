@@ -16,6 +16,7 @@
 
 (setq vterm-always-compile-module t)
 (setq vterm-kill-buffer-on-exit t)
+(setq vterm-shell "/usr/bin/tmux")
 
 (provide 'init-term)
 
