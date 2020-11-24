@@ -82,3 +82,12 @@
 [submodule "site-lisp/restart-emacs"]
 	path = site-lisp/restart-emacs
 	url = https://github.com/iqbalansari/restart-emacs.git
+[submodule "site-lisp/all-the-icons-ivy"]
+	path = site-lisp/all-the-icons-ivy
+	url = https://github.com/asok/all-the-icons-ivy
+[submodule "site-lisp/doom-modeline"]
+	path = site-lisp/doom-modeline
+	url = https://github.com/seagle0128/doom-modeline
+[submodule "site-lisp/shrink-path-el"]
+	path = site-lisp/shrink-path-el
+	url = https://gitlab.com/bennya/shrink-path.el.git

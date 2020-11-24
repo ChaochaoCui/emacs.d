@@ -15,6 +15,16 @@
 (require 'zenburn-theme)
 
 (load-theme 'zenburn t)
+(require 'all-the-icons)
+(require 'all-the-icons-ivy)
+(all-the-icons-ivy-setup)
+
+(menu-bar-mode -1)
+(tool-bar-mode -1)
+(scroll-bar-mode -1)
+
+(require 'doom-modeline)
+(doom-modeline-mode +1)
 
 (provide 'init-ui)
 
