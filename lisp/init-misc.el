@@ -22,6 +22,7 @@
 (add-hook 'prog-mode-hook
           '(lambda ()
              (read-only-mode +1)
+             (column-number-mode +1)
              (display-line-numbers-mode +1)))
 
 (require 'smartparens-config)
