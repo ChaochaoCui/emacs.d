@@ -31,6 +31,13 @@
 (global-set-key (kbd "C-h v") #'helpful-variable)
 (global-set-key (kbd "C-h k") #'helpful-key)
 
+;;; smartparens
+(global-set-key (kbd "C-c s n") #'sp-forward-sexp)
+(global-set-key (kbd "C-c s p") #'sp-backward-sexp)
+
+;;; vterm
+(global-set-key (kbd "C-c t n") #'vterm)
+
 (provide 'init-keybinds)
 
 ;;; init-keybinds.el ends here
