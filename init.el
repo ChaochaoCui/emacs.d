@@ -23,6 +23,8 @@
 (require 'init-yasnippet)
 (require 'init-ivy)
 (require 'init-projectile)
+(require 'init-git)
+(require 'init-rtags)
 (require 'init-term)
 (require 'init-help)
 (require 'init-keybinds)
