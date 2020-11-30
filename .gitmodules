@@ -91,3 +91,12 @@
 [submodule "site-lisp/shrink-path-el"]
 	path = site-lisp/shrink-path-el
 	url = https://gitlab.com/bennya/shrink-path.el.git
+[submodule "site-lisp/git-gutter"]
+	path = site-lisp/git-gutter
+	url = https://github.com/emacsorphanage/git-gutter
+[submodule "site-lisp/git-gutter-fringe"]
+	path = site-lisp/git-gutter-fringe
+	url = https://github.com/emacsorphanage/git-gutter-fringe
+[submodule "site-lisp/fringe-helper-el"]
+	path = site-lisp/fringe-helper-el
+	url = https://github.com/nschum/fringe-helper.el

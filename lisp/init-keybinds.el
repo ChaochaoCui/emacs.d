@@ -38,6 +38,10 @@
 ;;; vterm
 (global-set-key (kbd "C-c t n") #'vterm)
 
+;;; git
+(global-set-key (kbd "C-c g p") 'git-gutter:previous-hunk)
+(global-set-key (kbd "C-c g n") 'git-gutter:next-hunk)
+
 (provide 'init-keybinds)
 
 ;;; init-keybinds.el ends here
